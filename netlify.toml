@@ -1,0 +1,16 @@
+[
+build]
+  command = "npm run build"
+  publish = "dist"
+
+# Optional: set framework to vite for better defaults
+[
+build.environment]
+  NODE_VERSION = "20"
+
+# Redirect all routes to index.html (SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
