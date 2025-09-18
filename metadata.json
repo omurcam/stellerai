@@ -1,0 +1,5 @@
+{
+  "name": "Stellar AI Landing Page",
+  "description": "A stylish landing page for an AI effects website, featuring a dynamic WebGL background animation created with Three.js and React.",
+  "requestFramePermissions": []
+}
